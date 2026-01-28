@@ -4,6 +4,7 @@ import HomePage from './components/HomePage'
 import LoginPage from './components/LoginPage'
 import SignUpPage from './components/SignUpPage'
 import AccountPage from './components/AccountPage'
+import ButtonPage from './components/ButtonPage'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
         <Route path='/login' element={<LoginPage/>}/>
         <Route path='/signup' element={<SignUpPage/>}/>
         <Route path='/account' element={<AccountPage/>}/>
+        <Route path='/buttons' element={<ButtonPage/>}/>
      </Routes>
     </div>
   )
